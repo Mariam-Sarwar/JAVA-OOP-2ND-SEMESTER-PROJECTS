@@ -1,0 +1,12 @@
+imort java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter A number ");
+        int number=scanner.nextInt();
+        int sum=0;
+        for( int num=number;num!=0;  num--){
+              sum+=num;}
+        System.out.println("sum of given number = "+sum);
+    }
+}
