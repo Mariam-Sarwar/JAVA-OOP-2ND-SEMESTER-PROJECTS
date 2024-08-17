@@ -1,0 +1,70 @@
+ class  SoftwareHouse{
+        String name;
+        int phoneNumber;
+     String address;
+     int NumberOFDep;
+
+     int numberOfWorkers;
+        public static void webDevelopment(){
+            System.out.println("Application is develop");
+        }
+     public static void softwareUpdate(){
+         System.out.println("Software update");
+     }}
+      class Software_2{
+     public static void main(String[] args) {
+         SoftwareHouse E1 = new SoftwareHouse();
+            E1.name =" leeza ";
+            E1.phoneNumber=727488;
+            E1.address ="ndbhfdhhfu";
+         E1.NumberOFDep =30;
+         E1.numberOfWorkers =9500;
+
+         SoftwareHouse E2 = new SoftwareHouse();
+         E2.name ="  Sheeza ";
+         E2.phoneNumber=827745;
+         E2.address ="sfdf";
+         E2.NumberOFDep =35;
+         E2.numberOfWorkers =9510;
+
+         SoftwareHouse E3 = new SoftwareHouse();
+         E3.name =" Aleeza ";
+         E3.phoneNumber=989888;
+         E3.address ="fgfgf";
+         E3.NumberOFDep =49;
+         E3.numberOfWorkers =9450;
+
+         System.out.println(" SoftwareHouse information");
+         System.out.println("Name : "+  E1.name);
+         System.out.println("phone number :"+  E1.phoneNumber);
+         System.out.println("address : "+  E1.address);
+         System.out.println("number of deparatment : "+  E1.NumberOFDep);
+         System.out.println("numbr of workers : "+  E1.numberOfWorkers);
+
+
+         System.out.println(" SoftwareHouse information");
+         System.out.println("Name : "+  E2.name);
+         System.out.println("phone number :"+  E2.phoneNumber);
+         System.out.println("address : "+  E2.address);
+         System.out.println("number of deparatment : "+  E2.NumberOFDep);
+         System.out.println("numbr of workers : "+  E2.numberOfWorkers);
+
+
+         System.out.println(" SoftwareHouse information");
+         System.out.println("Name : "+  E3.name);
+         System.out.println("phone number :"+  E3.phoneNumber);
+         System.out.println("address : "+  E3.address);
+         System.out.println("number of deparatment : "+  E3.NumberOFDep);
+         System.out.println("numbr of workers : "+  E3.numberOfWorkers);
+
+         E1.webDevelopment();
+        E1.softwareUpdate();
+
+         E2.webDevelopment();
+         E2.softwareUpdate();
+
+         E3.webDevelopment();
+         E3.softwareUpdate();
+        }
+
+    }
