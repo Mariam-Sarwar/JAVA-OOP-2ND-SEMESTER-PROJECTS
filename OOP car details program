@@ -1,0 +1,23 @@
+ class  Car {
+    String colour;
+        String make;
+
+        String model;
+        public static void startEngine(){
+            System.out.println("Engine Started");
+        }
+     public static void accelerate(){
+         System.out.println("Car is accelerating");
+     }
+        public static void main(String[] args) {
+            Car myCar = new Car();
+            myCar.colour ="red";
+            myCar.make ="Honda";
+            myCar.model ="Civic";
+            myCar.startEngine();
+            myCar.accelerate();
+            System.out.println("Colour : "+myCar.colour);
+            System.out.println("Colour : "+myCar.make);
+            System.out.println("Colour : "+myCar.model);
+        }
+    }
