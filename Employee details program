@@ -1,0 +1,36 @@
+class  Employee {
+        String name;
+        String fatherName;
+        int CINC;
+     String accountNumber;
+     String address;
+        public static void createAccount(){
+            System.out.println("Account is created");
+        }
+     public static void deleteAccount(){
+         System.out.println("Account is deleted");
+     }
+     public static void searchAccount(){
+         System.out.println("Search Account ");
+     }
+     public static void main(String[] args) {
+            Employee E1 = new Employee();
+            E1.name ="mariam";
+            E1.fatherName ="Sarwar";
+            E1.CINC =44722648;
+         E1.accountNumber ="46789001-8764bnsbd";
+         E1.address ="bhzbxhshhhhj";
+
+         System.out.println("Employee information");
+         System.out.println("Name : "+  E1.name);
+         System.out.println("father Name :"+  E1.fatherName);
+         System.out.println("CINC : "+  E1.CINC);
+         System.out.println("Account Number : "+  E1.accountNumber);
+         System.out.println("Addresss : "+  E1.address);
+         System.out.println("Work which employee can perform ");
+         E1.createAccount();
+         E1.deleteAccount();
+         E1.searchAccount();
+
+        }
+    }
