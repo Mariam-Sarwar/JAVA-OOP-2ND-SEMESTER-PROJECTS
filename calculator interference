@@ -1,0 +1,26 @@
+package Calculator;
+
+public interface Calculator {
+        double add(double num1,double num2);
+        double subtract(double num1,double num2);
+        double multiply(double num1,double num2);
+        double divide(double num1,double num2);
+
+        double sin(double num1);
+        double cos(double num1);
+        double tan(double num1);
+
+        double sinInverse(double num1);
+        double cosInverse(double num1);
+        double tanInverse(double num1);
+        double square(double num1);
+        double cube(double num1);
+
+        double log(double num1,double num2);
+        double ln(double num1);
+        double ex (double num1);
+        double squareRoot(double num1);
+
+        double factorial(double num1);
+    }
+
